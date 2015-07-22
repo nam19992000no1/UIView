@@ -32,6 +32,7 @@
 		7AAD72031B5F934F008B95D5 /* campFire15.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD71F21B5F934F008B95D5 /* campFire15.gif */; };
 		7AAD72041B5F934F008B95D5 /* campFire16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD71F31B5F934F008B95D5 /* campFire16.gif */; };
 		7AAD72051B5F934F008B95D5 /* campFire17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD71F41B5F934F008B95D5 /* campFire17.gif */; };
+		7AAD720B1B5F96AC008B95D5 /* NestedSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD720A1B5F96AC008B95D5 /* NestedSquare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		7AAD71F21B5F934F008B95D5 /* campFire15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire15.gif; sourceTree = "<group>"; };
 		7AAD71F31B5F934F008B95D5 /* campFire16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire16.gif; sourceTree = "<group>"; };
 		7AAD71F41B5F934F008B95D5 /* campFire17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire17.gif; sourceTree = "<group>"; };
+		7AAD72091B5F96AC008B95D5 /* NestedSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedSquare.h; sourceTree = "<group>"; };
+		7AAD720A1B5F96AC008B95D5 /* NestedSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedSquare.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 			children = (
 				7AAD71DE1B5F920D008B95D5 /* CampFire.h */,
 				7AAD71DF1B5F920D008B95D5 /* CampFire.m */,
+				7AAD72091B5F96AC008B95D5 /* NestedSquare.h */,
+				7AAD720A1B5F96AC008B95D5 /* NestedSquare.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				7AAD71E11B5F920D008B95D5 /* CampFire.m in Sources */,
 				7AAD71D91B5F8C36008B95D5 /* BootLogic.m in Sources */,
 				7AAD71DB1B5F8C36008B95D5 /* MainScreen.m in Sources */,
+				7AAD720B1B5F96AC008B95D5 /* NestedSquare.m in Sources */,
 				7AAD71DA1B5F8C36008B95D5 /* ConsoleScreen.m in Sources */,
 				7AAD71D81B5F8C36008B95D5 /* AppDelegate.m in Sources */,
 				7AAD71901B5F8BC9008B95D5 /* main.m in Sources */,
