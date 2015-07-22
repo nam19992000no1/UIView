@@ -55,6 +55,9 @@
 		7AAD723F1B5FCD81008B95D5 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD723B1B5FCD81008B95D5 /* green.png */; };
 		7AAD72401B5FCD81008B95D5 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD723C1B5FCD81008B95D5 /* red.png */; };
 		7AAD72411B5FCD81008B95D5 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD723D1B5FCD81008B95D5 /* violet.png */; };
+		7AAD72451B5FEAAE008B95D5 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD72431B5FEAAE008B95D5 /* BasicView.m */; };
+		7AAD72461B5FEAAE008B95D5 /* BasicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72441B5FEAAE008B95D5 /* BasicView.xib */; };
+		7AAD72491B5FEB0F008B95D5 /* chessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD72481B5FEB0F008B95D5 /* chessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +121,11 @@
 		7AAD723B1B5FCD81008B95D5 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = ../../../../../Users/namtitan/Downloads/77/green.png; sourceTree = "<group>"; };
 		7AAD723C1B5FCD81008B95D5 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../../../../Users/namtitan/Downloads/77/red.png; sourceTree = "<group>"; };
 		7AAD723D1B5FCD81008B95D5 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violet.png; path = ../../../../../Users/namtitan/Downloads/77/violet.png; sourceTree = "<group>"; };
+		7AAD72421B5FEAAE008B95D5 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		7AAD72431B5FEAAE008B95D5 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		7AAD72441B5FEAAE008B95D5 /* BasicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicView.xib; sourceTree = "<group>"; };
+		7AAD72471B5FEB0F008B95D5 /* chessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chessView.h; sourceTree = "<group>"; };
+		7AAD72481B5FEB0F008B95D5 /* chessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +201,9 @@
 		7AAD71DD1B5F8CCE008B95D5 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				7AAD72421B5FEAAE008B95D5 /* BasicView.h */,
+				7AAD72431B5FEAAE008B95D5 /* BasicView.m */,
+				7AAD72441B5FEAAE008B95D5 /* BasicView.xib */,
 				7AAD71DE1B5F920D008B95D5 /* CampFire.h */,
 				7AAD71DF1B5F920D008B95D5 /* CampFire.m */,
 				7AAD72091B5F96AC008B95D5 /* NestedSquare.h */,
@@ -203,6 +214,8 @@
 				7AAD721F1B5FAE7B008B95D5 /* Board.m */,
 				7AAD72361B5FCD52008B95D5 /* Star.h */,
 				7AAD72371B5FCD52008B95D5 /* Star.m */,
+				7AAD72471B5FEB0F008B95D5 /* chessView.h */,
+				7AAD72481B5FEB0F008B95D5 /* chessView.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -356,6 +369,7 @@
 				7AAD72011B5F934F008B95D5 /* campFire13.gif in Resources */,
 				7AAD72171B5FA4EE008B95D5 /* bird0.png in Resources */,
 				7AAD72411B5FCD81008B95D5 /* violet.png in Resources */,
+				7AAD72461B5FEAAE008B95D5 /* BasicView.xib in Resources */,
 				7AAD719B1B5F8BCA008B95D5 /* Assets.xcassets in Resources */,
 				7AAD721C1B5FA4EE008B95D5 /* bird5.png in Resources */,
 				7AAD723E1B5FCD81008B95D5 /* brown.png in Resources */,
@@ -377,6 +391,8 @@
 				7AAD71E11B5F920D008B95D5 /* CampFire.m in Sources */,
 				7AAD720E1B5FA33C008B95D5 /* FlyingBird.m in Sources */,
 				7AAD71D91B5F8C36008B95D5 /* BootLogic.m in Sources */,
+				7AAD72491B5FEB0F008B95D5 /* chessView.m in Sources */,
+				7AAD72451B5FEAAE008B95D5 /* BasicView.m in Sources */,
 				7AAD71DB1B5F8C36008B95D5 /* MainScreen.m in Sources */,
 				7AAD720B1B5F96AC008B95D5 /* NestedSquare.m in Sources */,
 				7AAD72381B5FCD52008B95D5 /* Star.m in Sources */,
