@@ -33,6 +33,14 @@
 		7AAD72041B5F934F008B95D5 /* campFire16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD71F31B5F934F008B95D5 /* campFire16.gif */; };
 		7AAD72051B5F934F008B95D5 /* campFire17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD71F41B5F934F008B95D5 /* campFire17.gif */; };
 		7AAD720B1B5F96AC008B95D5 /* NestedSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD720A1B5F96AC008B95D5 /* NestedSquare.m */; };
+		7AAD720E1B5FA33C008B95D5 /* FlyingBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD720D1B5FA33C008B95D5 /* FlyingBird.m */; };
+		7AAD72171B5FA4EE008B95D5 /* bird0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72101B5FA4EE008B95D5 /* bird0.png */; };
+		7AAD72181B5FA4EE008B95D5 /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72111B5FA4EE008B95D5 /* bird1.png */; };
+		7AAD72191B5FA4EE008B95D5 /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72121B5FA4EE008B95D5 /* bird2.png */; };
+		7AAD721A1B5FA4EE008B95D5 /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72131B5FA4EE008B95D5 /* bird3.png */; };
+		7AAD721B1B5FA4EE008B95D5 /* bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72141B5FA4EE008B95D5 /* bird4.png */; };
+		7AAD721C1B5FA4EE008B95D5 /* bird5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72151B5FA4EE008B95D5 /* bird5.png */; };
+		7AAD721D1B5FA4EE008B95D5 /* jungle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD72161B5FA4EE008B95D5 /* jungle.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +79,15 @@
 		7AAD71F41B5F934F008B95D5 /* campFire17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire17.gif; sourceTree = "<group>"; };
 		7AAD72091B5F96AC008B95D5 /* NestedSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedSquare.h; sourceTree = "<group>"; };
 		7AAD720A1B5F96AC008B95D5 /* NestedSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedSquare.m; sourceTree = "<group>"; };
+		7AAD720C1B5FA33C008B95D5 /* FlyingBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingBird.h; sourceTree = "<group>"; };
+		7AAD720D1B5FA33C008B95D5 /* FlyingBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingBird.m; sourceTree = "<group>"; };
+		7AAD72101B5FA4EE008B95D5 /* bird0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird0.png; sourceTree = "<group>"; };
+		7AAD72111B5FA4EE008B95D5 /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		7AAD72121B5FA4EE008B95D5 /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		7AAD72131B5FA4EE008B95D5 /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird3.png; sourceTree = "<group>"; };
+		7AAD72141B5FA4EE008B95D5 /* bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird4.png; sourceTree = "<group>"; };
+		7AAD72151B5FA4EE008B95D5 /* bird5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird5.png; sourceTree = "<group>"; };
+		7AAD72161B5FA4EE008B95D5 /* jungle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungle.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +120,7 @@
 		7AAD718D1B5F8BC8008B95D5 /* AllOfUIView */ = {
 			isa = PBXGroup;
 			children = (
+				7AAD720F1B5FA4BD008B95D5 /* JungleBird */,
 				7AAD71E31B5F9334008B95D5 /* CampFire */,
 				7AAD71A51B5F8BE6008B95D5 /* Core */,
 				7AAD71DD1B5F8CCE008B95D5 /* UIView */,
@@ -145,6 +163,8 @@
 				7AAD71DF1B5F920D008B95D5 /* CampFire.m */,
 				7AAD72091B5F96AC008B95D5 /* NestedSquare.h */,
 				7AAD720A1B5F96AC008B95D5 /* NestedSquare.m */,
+				7AAD720C1B5FA33C008B95D5 /* FlyingBird.h */,
+				7AAD720D1B5FA33C008B95D5 /* FlyingBird.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -171,6 +191,20 @@
 				7AAD71F41B5F934F008B95D5 /* campFire17.gif */,
 			);
 			name = CampFire;
+			sourceTree = "<group>";
+		};
+		7AAD720F1B5FA4BD008B95D5 /* JungleBird */ = {
+			isa = PBXGroup;
+			children = (
+				7AAD72101B5FA4EE008B95D5 /* bird0.png */,
+				7AAD72111B5FA4EE008B95D5 /* bird1.png */,
+				7AAD72121B5FA4EE008B95D5 /* bird2.png */,
+				7AAD72131B5FA4EE008B95D5 /* bird3.png */,
+				7AAD72141B5FA4EE008B95D5 /* bird4.png */,
+				7AAD72151B5FA4EE008B95D5 /* bird5.png */,
+				7AAD72161B5FA4EE008B95D5 /* jungle.jpg */,
+			);
+			name = JungleBird;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,19 +269,26 @@
 				7AAD71FD1B5F934F008B95D5 /* campFire09.gif in Resources */,
 				7AAD72021B5F934F008B95D5 /* campFire14.gif in Resources */,
 				7AAD719E1B5F8BCA008B95D5 /* LaunchScreen.storyboard in Resources */,
+				7AAD72191B5FA4EE008B95D5 /* bird2.png in Resources */,
 				7AAD72051B5F934F008B95D5 /* campFire17.gif in Resources */,
 				7AAD71F71B5F934F008B95D5 /* campFire03.gif in Resources */,
+				7AAD721D1B5FA4EE008B95D5 /* jungle.jpg in Resources */,
 				7AAD72031B5F934F008B95D5 /* campFire15.gif in Resources */,
 				7AAD71F51B5F934F008B95D5 /* campFire01.gif in Resources */,
 				7AAD71F81B5F934F008B95D5 /* campFire04.gif in Resources */,
 				7AAD71FE1B5F934F008B95D5 /* campFire10.gif in Resources */,
+				7AAD72181B5FA4EE008B95D5 /* bird1.png in Resources */,
 				7AAD71F91B5F934F008B95D5 /* campFire05.gif in Resources */,
 				7AAD72001B5F934F008B95D5 /* campFire12.gif in Resources */,
 				7AAD72041B5F934F008B95D5 /* campFire16.gif in Resources */,
 				7AAD71FC1B5F934F008B95D5 /* campFire08.gif in Resources */,
+				7AAD721B1B5FA4EE008B95D5 /* bird4.png in Resources */,
 				7AAD71FF1B5F934F008B95D5 /* campFire11.gif in Resources */,
 				7AAD72011B5F934F008B95D5 /* campFire13.gif in Resources */,
+				7AAD72171B5FA4EE008B95D5 /* bird0.png in Resources */,
 				7AAD719B1B5F8BCA008B95D5 /* Assets.xcassets in Resources */,
+				7AAD721C1B5FA4EE008B95D5 /* bird5.png in Resources */,
+				7AAD721A1B5FA4EE008B95D5 /* bird3.png in Resources */,
 				7AAD71FA1B5F934F008B95D5 /* campFire06.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AAD71E11B5F920D008B95D5 /* CampFire.m in Sources */,
+				7AAD720E1B5FA33C008B95D5 /* FlyingBird.m in Sources */,
 				7AAD71D91B5F8C36008B95D5 /* BootLogic.m in Sources */,
 				7AAD71DB1B5F8C36008B95D5 /* MainScreen.m in Sources */,
 				7AAD720B1B5F96AC008B95D5 /* NestedSquare.m in Sources */,
