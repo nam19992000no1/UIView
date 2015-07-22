@@ -20,7 +20,8 @@
                                     @{TITLE: @"CampFire", CLASS: @"CampFire"},
                                     @{TITLE:@"NestedSquare", CLASS:@"NestedSquare"},
                                     @{TITLE:@"FlyingBird", CLASS:@"FlyingBird"},
-                                    @{TITLE:@"Board",CLASS:@"Board"}
+                                    @{TITLE:@"Board",CLASS:@"Board"},
+                                    @{TITLE:@"Star",CLASS:@"Star"}
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Inter B", CLASS: @"InterB"}
