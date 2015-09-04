@@ -7,11 +7,12 @@
 //
 
 #import "FlyingBird.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface FlyingBird ()
 {
     UIImageView *bird;
-    
+    AVAudioPlayer *audioPlayer;
 }
 
 @end
@@ -24,7 +25,9 @@
     [self drawJungle];
     [self addBird];
     [self flyUpAndDown];
+    [self playSong];
 }
+
 -(void)drawJungle {
     UIImageView *background = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"jungle.jpg"]];
     background.frame = self.view.bounds;
@@ -59,6 +62,17 @@
         }];
     }];
     
+}
+-(void)playSong{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"bird" ofType:@"mp3"];
+    NSURL*url = [NSURL fileURLWithPath:filePath];
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
+}
+-(void) viewWillDisappear:(BOOL)animated{
+    [audioPlayer stop];
 }
 
 @end

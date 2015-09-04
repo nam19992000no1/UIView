@@ -21,7 +21,9 @@
                                     @{TITLE:@"NestedSquare", CLASS:@"NestedSquare"},
                                     @{TITLE:@"FlyingBird", CLASS:@"FlyingBird"},
                                     @{TITLE:@"Board",CLASS:@"Board"},
-                                    @{TITLE:@"Star",CLASS:@"Star"}
+                                    @{TITLE:@"Star",CLASS:@"Star"},
+                                    @{TITLE:@"RollingBall",CLASS:@"RollingBall"},
+                                    @{TITLE: @"Color", CLASS: @"DemoColor"}
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Inter B", CLASS: @"InterB"}

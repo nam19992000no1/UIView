@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A41EC061B61148B008C9263 /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A41EC051B61148B008C9263 /* bird.mp3 */; };
+		7A41EC0A1B612495008C9263 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A41EC091B612495008C9263 /* UIColor+Extend.m */; };
+		7A6E98371B82140D003AF2C6 /* RollingBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E98361B82140D003AF2C6 /* RollingBall.m */; };
+		7A6E98391B8219C9003AF2C6 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E98381B8219C9003AF2C6 /* football.png */; };
+		7AA12B2A1B99E6D800CF96E0 /* DemoColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA12B291B99E6D800CF96E0 /* DemoColor.m */; };
 		7AAD71901B5F8BC9008B95D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD718F1B5F8BC9008B95D5 /* main.m */; };
 		7AAD719B1B5F8BCA008B95D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD719A1B5F8BCA008B95D5 /* Assets.xcassets */; };
 		7AAD719E1B5F8BCA008B95D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD719C1B5F8BCA008B95D5 /* LaunchScreen.storyboard */; };
@@ -61,6 +66,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A41EC051B61148B008C9263 /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
+		7A41EC081B612495008C9263 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		7A41EC091B612495008C9263 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		7A6E98351B82140D003AF2C6 /* RollingBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBall.h; sourceTree = "<group>"; };
+		7A6E98361B82140D003AF2C6 /* RollingBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBall.m; sourceTree = "<group>"; };
+		7A6E98381B8219C9003AF2C6 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		7AA12B281B99E6D800CF96E0 /* DemoColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoColor.h; sourceTree = "<group>"; };
+		7AA12B291B99E6D800CF96E0 /* DemoColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoColor.m; sourceTree = "<group>"; };
 		7AAD718B1B5F8BC8008B95D5 /* AllOfUIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllOfUIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAD718F1B5F8BC9008B95D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AAD719A1B5F8BCA008B95D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +153,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A41EC071B612447008C9263 /* HexColor */ = {
+			isa = PBXGroup;
+			children = (
+				7A41EC081B612495008C9263 /* UIColor+Extend.h */,
+				7A41EC091B612495008C9263 /* UIColor+Extend.m */,
+				7AA12B281B99E6D800CF96E0 /* DemoColor.h */,
+				7AA12B291B99E6D800CF96E0 /* DemoColor.m */,
+			);
+			name = HexColor;
+			sourceTree = "<group>";
+		};
+		7A6E98341B8213A3003AF2C6 /* Timer Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E98351B82140D003AF2C6 /* RollingBall.h */,
+				7A6E98381B8219C9003AF2C6 /* football.png */,
+				7A6E98361B82140D003AF2C6 /* RollingBall.m */,
+			);
+			name = "Timer Animation";
+			sourceTree = "<group>";
+		};
 		7AAD71821B5F8BC7008B95D5 = {
 			isa = PBXGroup;
 			children = (
@@ -160,12 +194,14 @@
 		7AAD718D1B5F8BC8008B95D5 /* AllOfUIView */ = {
 			isa = PBXGroup;
 			children = (
+				7AAD71A51B5F8BE6008B95D5 /* Core */,
 				7AAD72391B5FCD70008B95D5 /* Star */,
 				7AAD72211B5FB410008B95D5 /* Sea */,
-				7AAD720F1B5FA4BD008B95D5 /* JungleBird */,
+				7A6E98341B8213A3003AF2C6 /* Timer Animation */,
 				7AAD71E31B5F9334008B95D5 /* CampFire */,
-				7AAD71A51B5F8BE6008B95D5 /* Core */,
 				7AAD71DD1B5F8CCE008B95D5 /* UIView */,
+				7AAD720F1B5FA4BD008B95D5 /* JungleBird */,
+				7A41EC071B612447008C9263 /* HexColor */,
 				7AAD719A1B5F8BCA008B95D5 /* Assets.xcassets */,
 				7AAD719C1B5F8BCA008B95D5 /* LaunchScreen.storyboard */,
 				7AAD719F1B5F8BCB008B95D5 /* Info.plist */,
@@ -247,6 +283,7 @@
 		7AAD720F1B5FA4BD008B95D5 /* JungleBird */ = {
 			isa = PBXGroup;
 			children = (
+				7A41EC051B61148B008C9263 /* bird.mp3 */,
 				7AAD72101B5FA4EE008B95D5 /* bird0.png */,
 				7AAD72111B5FA4EE008B95D5 /* bird1.png */,
 				7AAD72121B5FA4EE008B95D5 /* bird2.png */,
@@ -350,6 +387,7 @@
 				7AAD723F1B5FCD81008B95D5 /* green.png in Resources */,
 				7AAD722B1B5FB598008B95D5 /* ship.png in Resources */,
 				7AAD72191B5FA4EE008B95D5 /* bird2.png in Resources */,
+				7A41EC061B61148B008C9263 /* bird.mp3 in Resources */,
 				7AAD72051B5F934F008B95D5 /* campFire17.gif in Resources */,
 				7AAD71F71B5F934F008B95D5 /* campFire03.gif in Resources */,
 				7AAD721D1B5FA4EE008B95D5 /* jungle.jpg in Resources */,
@@ -368,6 +406,7 @@
 				7AAD71FF1B5F934F008B95D5 /* campFire11.gif in Resources */,
 				7AAD72011B5F934F008B95D5 /* campFire13.gif in Resources */,
 				7AAD72171B5FA4EE008B95D5 /* bird0.png in Resources */,
+				7A6E98391B8219C9003AF2C6 /* football.png in Resources */,
 				7AAD72411B5FCD81008B95D5 /* violet.png in Resources */,
 				7AAD72461B5FEAAE008B95D5 /* BasicView.xib in Resources */,
 				7AAD719B1B5F8BCA008B95D5 /* Assets.xcassets in Resources */,
@@ -394,12 +433,15 @@
 				7AAD72491B5FEB0F008B95D5 /* chessView.m in Sources */,
 				7AAD72451B5FEAAE008B95D5 /* BasicView.m in Sources */,
 				7AAD71DB1B5F8C36008B95D5 /* MainScreen.m in Sources */,
+				7AA12B2A1B99E6D800CF96E0 /* DemoColor.m in Sources */,
 				7AAD720B1B5F96AC008B95D5 /* NestedSquare.m in Sources */,
 				7AAD72381B5FCD52008B95D5 /* Star.m in Sources */,
 				7AAD71DA1B5F8C36008B95D5 /* ConsoleScreen.m in Sources */,
 				7AAD72201B5FAE7B008B95D5 /* Board.m in Sources */,
 				7AAD71D81B5F8C36008B95D5 /* AppDelegate.m in Sources */,
 				7AAD71901B5F8BC9008B95D5 /* main.m in Sources */,
+				7A6E98371B82140D003AF2C6 /* RollingBall.m in Sources */,
+				7A41EC0A1B612495008C9263 /* UIColor+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +580,7 @@
 				7AAD71A41B5F8BCB008B95D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
