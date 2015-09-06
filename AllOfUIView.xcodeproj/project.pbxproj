@@ -11,6 +11,7 @@
 		7A41EC0A1B612495008C9263 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A41EC091B612495008C9263 /* UIColor+Extend.m */; };
 		7A6E98371B82140D003AF2C6 /* RollingBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E98361B82140D003AF2C6 /* RollingBall.m */; };
 		7A6E98391B8219C9003AF2C6 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E98381B8219C9003AF2C6 /* football.png */; };
+		7A9355701B9AE3D3000A5A38 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A93556F1B9AE3D3000A5A38 /* ColorView.m */; };
 		7AA12B2A1B99E6D800CF96E0 /* DemoColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA12B291B99E6D800CF96E0 /* DemoColor.m */; };
 		7AAD71901B5F8BC9008B95D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD718F1B5F8BC9008B95D5 /* main.m */; };
 		7AAD719B1B5F8BCA008B95D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD719A1B5F8BCA008B95D5 /* Assets.xcassets */; };
@@ -72,6 +73,8 @@
 		7A6E98351B82140D003AF2C6 /* RollingBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBall.h; sourceTree = "<group>"; };
 		7A6E98361B82140D003AF2C6 /* RollingBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBall.m; sourceTree = "<group>"; };
 		7A6E98381B8219C9003AF2C6 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		7A93556E1B9AE3D3000A5A38 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		7A93556F1B9AE3D3000A5A38 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
 		7AA12B281B99E6D800CF96E0 /* DemoColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoColor.h; sourceTree = "<group>"; };
 		7AA12B291B99E6D800CF96E0 /* DemoColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoColor.m; sourceTree = "<group>"; };
 		7AAD718B1B5F8BC8008B95D5 /* AllOfUIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllOfUIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +163,8 @@
 				7A41EC091B612495008C9263 /* UIColor+Extend.m */,
 				7AA12B281B99E6D800CF96E0 /* DemoColor.h */,
 				7AA12B291B99E6D800CF96E0 /* DemoColor.m */,
+				7A93556E1B9AE3D3000A5A38 /* ColorView.h */,
+				7A93556F1B9AE3D3000A5A38 /* ColorView.m */,
 			);
 			name = HexColor;
 			sourceTree = "<group>";
@@ -427,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9355701B9AE3D3000A5A38 /* ColorView.m in Sources */,
 				7AAD71E11B5F920D008B95D5 /* CampFire.m in Sources */,
 				7AAD720E1B5FA33C008B95D5 /* FlyingBird.m in Sources */,
 				7AAD71D91B5F8C36008B95D5 /* BootLogic.m in Sources */,
